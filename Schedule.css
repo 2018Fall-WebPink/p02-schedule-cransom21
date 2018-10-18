@@ -1,0 +1,39 @@
+/*
+* Celea Ransom
+* 10/23/18
+* Schedule Table  
+*/
+
+/* The universal selector */
+
+*  {
+
+}
+
+/* Body attributes here */
+
+body {
+background-image: url("padua.png");
+    cursor:cell;
+
+}
+table, td, th {
+    border: 1px solid blue; 
+}
+table {
+    border-collapse:collapse;
+    
+}
+thead {
+    background-color:paleturquoise;
+}
+tbody {
+    background-color:pink;
+}
+tfoot {
+    background-color:palegreen;
+}
+table.center {
+ margin-left:auto;
+ margin-right:auto;
+}
